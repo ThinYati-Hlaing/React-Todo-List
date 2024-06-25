@@ -7,21 +7,21 @@ import { Toaster } from 'react-hot-toast'
 
 const App = () => {
   const [tasks, setTasks] = useState([
-    {
-      id: 1,
-      job: "Do assignment",
-      isDone: false,
-    },
-    {
-      id: 2,
-      job: "Meet with client",
-      isDone: false,
-    },
-    {
-      id: 3,
-      job: "Prepare for interview",
-      isDone: false,
-    },
+    // {
+    //   id: 1,
+    //   job: "Do assignment",
+    //   isDone: false,
+    // },
+    // {
+    //   id: 2,
+    //   job: "Meet with client",
+    //   isDone: false,
+    // },
+    // {
+    //   id: 3,
+    //   job: "Prepare for interview",
+    //   isDone: false,
+    // },
   ]);
 
   const addTask = (job) => {
